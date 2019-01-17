@@ -8,7 +8,7 @@ Vi behöver städa rymden från allt rymdskrot.
 
 Vi skall börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
 
-Kan du koppla ihop dem så att vår farkost hoppar framåt när varje gång vi trycker på den gröna flaggan?
+Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
 
 ![](./1_1.gif)
 
