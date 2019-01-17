@@ -2,7 +2,7 @@
 
 Koduppgifter för materialet *Leia och Björndjuren*:
 
-- [Städa rymdskrot](CODA 2 - uppgift/README.md)
+- Uppgift: [Städa rymdskrot](coda_2-uppgift/README.md)
 
 
 
