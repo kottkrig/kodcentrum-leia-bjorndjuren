@@ -4,6 +4,8 @@ Vi behöver städa rymden från allt rymdskrot.
 
 ![](./0_1.gif)
 
+// TODO: Lägg till instruktioner för remix eller för att skapa sprajtar med bilder
+
 ##  1 – Hoppa framåt
 
 Vi skall börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
