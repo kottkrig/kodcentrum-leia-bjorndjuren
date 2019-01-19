@@ -8,9 +8,9 @@ Vi behöver städa rymden från allt rymdskrot.
 
 ##  1 – Hoppa framåt
 
-Vi skall börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
+Vi ska börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
 
-Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
+Kan vi koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
 
 ![](./1_1.gif)
 
@@ -18,7 +18,7 @@ Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycke
 
 ![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./1_1.png)
 
-Rymden är en märklig plats för det är svårt att stå helt stilla. Oftast så fortsätter vi att sväva framåt. Det finns ett block som heter ”för alltid”. Kan du koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt när vi trycker på den gröna flaggan?
+Rymden är en märklig plats för det är svårt att stå helt stilla. Oftast så fortsätter vi att sväva framåt. Det finns ett block som heter ”för alltid”. Kan vi koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt när vi trycker på den gröna flaggan?
 
 ![](./2_1.gif)
 
@@ -30,7 +30,7 @@ Nu när vi åker framåt i rymden så behöver vi också kunna svänga. Det finn
 
 ![](./3_2.png)
 
-Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangenten trycks ned så skall farkosten svänga vänster? Och när ”högerpil” tangenten trycks ned så skall farkosten svänga höger?
+Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangenten trycks ned så ska farkosten svänga vänster? Och när ”högerpil” tangenten trycks ned så ska farkosten svänga höger?
 
 ![](./3_1.gif)
 
@@ -50,7 +50,7 @@ Tryck på knappen för att måla en ny sprajt.
 
 ![Tryck på knappen för att måla en ny sprajt](./5_1.png)
 
-Rita en kvadrat genom att välja kvadratverktyget och rita en kvdrat på den rutiga ytan. Du kan välja vilken färg du vill.
+Rita en kvadrat genom att välja kvadratverktyget och rita en kvdrat på den rutiga ytan. Vi kan välja vilken färg vi vill.
 
 ![](./5_2.png)
 
@@ -60,19 +60,19 @@ Döp din sprajt till ”kvadrat”.
 
 ## 6 – Koda rymdskrot
 
-Nu skall vi lägga till kod för vårt rymdskrot så att rymdskrotet försvinner när vår farkost rör vid det. Klicka på fliken ”kod” för att komma till koden för kvadraten.
+Nu ska vi lägga till kod för vårt rymdskrot så att rymdskrotet försvinner när vår farkost rör vid det. Klicka på fliken ”kod” för att komma till koden för kvadraten.
 
 ![](./6_1.png)
 
-> Ser det tomt ut? Din kod för din farkost har inte försvunnit. All kod som vi lägger ut är kopplade till en sprajt. Eftersom vi skapade en ny sprajt för vårt rymdskrot så har inte den fått någon kod ännu. Om du väljer din farkost i biblioteket så kommer du se din kod igen.
+> Ser det tomt ut? Din kod för din farkost har inte försvunnit. All kod som vi lägger ut är kopplade till en sprajt. Eftersom vi skapade en ny sprajt för vårt rymdskrot så har inte den fått någon kod ännu. Om vi väljer vår farkost i biblioteket så kommer vi se vår kod igen.
 
-Tryck på ”kvadrat” i ditt bibliotek så att den är vald. Du kan se att den är vald genom att den har en blå ram runt sig. Nu skall vi koda vad kvadraten skall göra.
+Tryck på ”kvadrat” i ditt bibliotek så att den är vald. Vi kan se att den är vald genom att den har en blå ram runt sig. Nu ska vi koda vad kvadraten ska göra.
 
 ![](./5_3.png)
 
-Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så skall den vänta på att den rör vid vår farkost. Och sedan skall den gömma sig själv. För det så kommer vi behöva dessa block:
+Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så ska den vänta på att den rör vid vår farkost. Och sedan ska den gömma sig själv. För det så kommer vi behöva dessa block:
 
-![Kan du sätta ihop dem i rätt ordning?](./6_2.png)
+![Kan vi sätta ihop dem i rätt ordning?](./6_2.png)
 
 ![](./6_3.gif)
 
@@ -80,7 +80,7 @@ Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så ska
 
 ![Ser din kod ut såhär?](./7_1.png)
 
-Märker du att vårt rymdskrot aldrig visas igen? Även om du trycker på den gröna flaggan?
+Märker du att vårt rymdskrot aldrig visas igen? Även om vi trycker på den gröna flaggan?
 
 Det är för att vi inte har lagt till det i vår kod. Kvadraten gör bara precis som den har blivit tillsagd.
 
@@ -88,7 +88,7 @@ Det finns ett block som heter ”visa”. Vi skulle kunna lägga det så att det
 
 ![](./7_2.png)
 
-Vi vill att vår kvadrat skall visas så fort vi trycker på den gröna flaggan.
+Vi vill att vår kvadrat ska visas så fort vi trycker på den gröna flaggan.
 
 ![](./7_3.gif)
 
@@ -115,7 +115,7 @@ När det ligger rätt så lägger sig rymdskrotet på en ny plats varje gång vi
 
 Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan så är det dags att lägga till fler geometriska figurer.
 
-På samma sätt som du ritade och kodade kvadraten – skapa nu två nya figurer:
+På samma sätt som vi ritade och kodade kvadraten – skapa vi nu två nya figurer:
 
 - En rektangel
 - En cirkel
@@ -131,6 +131,6 @@ Varje gång vi trycker på den gröna flaggan så dyker varje rymdskrot upp på 
 
 - Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
 - Lägg till variabler till rymdskrotet med en ”vikt” och låt farkosten ha en variabel ”plats”.
-- Rymdskrotet skall röra på sig och studsa vid kanterna.
+- Rymdskrotet ska röra på sig och studsa vid kanterna.
 
 
