@@ -1,6 +1,6 @@
 # CODA 2 – Städa rymdskrot
 
-Vi behöver städa rymden från allt rymdskrot.
+Vi måste rädda satelliten Mats och för att göra det så behöver vi städa rymden från rymdskrot.
 
 ![](./0_1.gif)
 
@@ -109,13 +109,50 @@ När det ligger rätt så lägger sig rymdskrotet på en ny plats varje gång vi
 
 ![](./8_3.gif)
 
-## 9 – Lägg till mer rymdskrot
+## 9 – Rör på rymdskrotet
 
 ![](./9_1.png)
 
-Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan så är det dags att lägga till fler geometriska figurer.
+Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan. Men rymdskrotet står ju helt still! Och det är ju helt fel. Det ska ju flyga runt.
 
-På samma sätt som vi ritade och kodade kvadraten – skapa vi nu två nya figurer:
+Vi kan få det att flyga runt på samma sätt som vår farkost. Vi lägger till ett nytt block **När grön flagga klickas på** och **för alltid** så ska vi **gå 1 steg framåt**.
+
+Men om vi testar nu så fastnar vårt rymdskrot i kanterna för vi kan inte styra rymdskrotet. Det finns ett block som kan hjälpa oss. Det heter **om vid kanten, studsa**. 
+
+![](./9_2.png)
+
+Vi vill att vårt rymdskrot skall studsa vid kanten efter att det ha **gått 1 steg framåt**. Vart tror du att det här blocket ska ligga? 
+
+## 10 – Håll räkningen på rymdskrotet
+
+![](./10_1.png)
+
+Vi skulle vilja hålla reda på hur många delar rymdskrot vi har plockat upp. Det skulle vi kunna använda en *variabel* till. Variabler är väldigt användbara när vi vill räkna saker.
+
+Använd knappen **skapa en variabel** och ge den namnet ”antal”.
+
+![](./10_2.png)
+
+Nu kan vi använda blocket **ändra antal med 1**. Vi vill ändra variabeln **antal** med 1 *efter* att vi har rört vid rymdfarkosten.
+
+![](./10_3.png)
+
+## 11 – Visa rymdskrotet igen
+
+![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
+
+Det är lite tråkigt att rymdskrotet försvinner helt när vi plockar upp det. Det finns ju trots allt mer rymdskrot i rymden. Vi kan använda blocket **för alltid** och lägga det *runt* våra andra block. Efter att vi har gömt vårt rymdskrot så vill vi hoppa upp till **gå till slumpmässig position**.
+
+
+## 12 – Lägg till mer rymdskrot
+
+![Nu kan vi plocka upp rymdskrotet flera gånger](./12_1.png)
+
+Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi fångar den. Och vi håller räkningen på hur många vi har plockat upp. 
+
+Rymdskrot kan ha olika former och olika storlekar.
+
+På samma sätt som vi ritade och programmerade vår kvadrat – skapa vi nu två nya figurer:
 
 - En rektangel
 - En cirkel
