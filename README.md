@@ -23,6 +23,7 @@ Helst skall sprajtar och bakgrunder vara i SVG-format.
 - [ ] Asteroidbälte
 - [ ] Satellit
 - [ ] Satellit (roterad)
+- [ ] Koordinatsystem
 
 ### Bakgrunder
 
