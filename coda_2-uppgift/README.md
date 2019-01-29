@@ -6,7 +6,11 @@ Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda Mats från
 
 ![](./0_1.gif)
 
-// TODO: Lägg till instruktioner för remix eller för att skapa sprajtar med bilder
+Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
+
+1. Öppna den här sidan: https://scratch.mit.edu/projects/282942221/
+2. Klicka på knappen ”Se inuti” så att du kan se koden.
+3. Klicka sedan på knappen ”Remix”. Då får du en egen kopia av projekter som du kan använda.
 
 ##  1 – Hoppa framåt
 
