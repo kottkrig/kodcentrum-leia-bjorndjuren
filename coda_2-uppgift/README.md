@@ -125,7 +125,7 @@ Men om vi testar nu så fastnar vårt rymdskrot i kanterna för vi kan inte styr
 
 ![](./9_2.png)
 
-Vi vill att vårt rymdskrot skall studsa vid kanten efter att det ha **gått 1 steg framåt**. Vart tror du att det här blocket ska ligga? 
+Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 steg framåt**. Vart tror du att det här blocket ska ligga? 
 
 ## 10 – Håll räkningen på rymdskrotet
 
@@ -189,9 +189,9 @@ Nu borde variabelns värde sättas till 0 varje gång vi trycker på den gröna 
 
 Nu nollställs vår variabel varje gång vi startar om. 
 
-Som nästa steg så vill vi att vår rymdfarkost skall ropa ”Äntligen klart! när vi har plockat upp allt rymdskrot. Om vi har plockat upp all rymdskrot så betyder det att vi har plussat ihop allas vikter i vår variabel.
+Som nästa steg så vill vi att vår rymdfarkost ska ropa ”Äntligen klart! när vi har plockat upp allt rymdskrot. Om vi har plockat upp all rymdskrot så betyder det att vi har plussat ihop allas vikter i vår variabel.
 
-I sprajten ”rymdfarkost” så skall vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill kolla om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Och om den är det – då säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
+I sprajten ”rymdfarkost” så ska vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill kolla om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Och om den är det – då säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
 
 > Vi kan räkna ut summan genom att plussa ihop alla vikterna från de olika rymdskroten. Använd papper och penna och skriv ned vikterna från sprajtarna och plussa sedan ihop dem.
 
