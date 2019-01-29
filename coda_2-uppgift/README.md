@@ -195,6 +195,52 @@ I sprajten ”rymdfarkost” så skall vi lägga till ett par block inuti vårt 
 
 ![](./15_2.png)
 
+## 16 – Game over när vi nuddar Mats
+
+Nu när vi har städat bort allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om rymdskrotet nuddar Mats. 
+
+Markera sprajten Mats. Det är där vi ska lägga till vår kod.
+
+Efter att grön flagga klickas på så ska vi vänta tills vi rör vid kvadrat **eller** rör vid rektangel **eller** rör vid cirkel **eller** rör vid triangel. 
+
+Efter det vill vi säga ”Ajajajaj!” i 2 sekunder. Och sedan vill vi använda blocket ”stoppa alla” för att avsluta vårt skript.
+
+> Visste du att det går att lägga ett ”eller”-block i ett annat ”eller”-block?
+
+![](./16_2.gif)
+
+Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Vi kan ändra storleken på Mats om vi vill göra det lite lättare för oss:
+
+![](./16_3.png)
+
+## 17 – Avslutning
+
+Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
+
+### Kod för Rymdfarkost:
+
+![](./17_1.png)
+
+### Kod för Kvadrat:
+
+![](./17_2.png)
+
+### Kod för Rektangel:
+
+![](./17_3.png)
+
+### Kod för Cirkel:
+
+![](./17_4.png)
+
+### Kod för Triangel:
+
+![](./17_5.png)
+
+### Kod för Mats:
+
+![](./17_6.png)
+
 ## TODO: Möjliga extrauppgifter
 
 - Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
