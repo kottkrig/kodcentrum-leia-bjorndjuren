@@ -46,8 +46,6 @@ Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangent
 
 Nu när vi kan styra vår farkost så är det dags att ge vårt projekt ett namn. Ge ditt projekt namnet ”Städa rymdskrot”.
 
-// TODO: Fler och utförligare instruktioner för hur man sparar och namnger sitt projekt.
-
 ## 5 – Skapa rymdskrot
 
 Men vart är allt rymdskrot? Rymden ser ju helt ren ut? Låt oss lägga till lite rymdskrot i vår rymd så att vi har något att städa.
