@@ -1,4 +1,4 @@
-# CODA 2 – Städa rymdskrot
+# Rymdskrot
 
 Vi måste rädda satelliten Mats och för att göra det så behöver vi städa rymden från rymdskrot.
 
