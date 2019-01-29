@@ -1,6 +1,8 @@
 # Rymdskrot
 
-Vi måste rädda satelliten Mats och för att göra det så behöver vi städa rymden från rymdskrot.
+Satelliten Mats är i fara! Det flyger runt en massa rymdskrot ute i rymden och en del av det kanske träffar Mats. Både stora- och små bitar kan vara farliga. Det är bäst att vi försöker städa undan så mycket som möjligt.
+
+Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda Mats från rymdskrotet.
 
 ![](./0_1.gif)
 
