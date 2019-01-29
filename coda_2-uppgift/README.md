@@ -129,42 +129,71 @@ Vi vill att vårt rymdskrot skall studsa vid kanten efter att det ha **gått 1 s
 
 ![](./10_1.png)
 
-Vi skulle vilja hålla reda på hur många delar rymdskrot vi har plockat upp. Det skulle vi kunna använda en *variabel* till. Variabler är väldigt användbara när vi vill räkna saker.
+Vi skulle vilja hålla reda på hur mycket rymdskrotet väger som vi har plockat upp. Det skulle vi kunna använda en *variabel* till. Variabler är väldigt användbara när vi vill räkna saker.
 
-Använd knappen **skapa en variabel** och ge den namnet ”antal”.
+Använd knappen **skapa en variabel** och ge den namnet ”vikt”.
 
 ![](./10_2.png)
 
-Nu kan vi använda blocket **ändra antal med 1**. Vi vill ändra variabeln **antal** med 1 *efter* att vi har rört vid rymdfarkosten.
+Nu kan vi använda blocket **ändra vikt med 5**. Vi vill ändra variabeln **vikt** med 5 *efter* att vi har rört vid rymdfarkosten.
 
 ![](./10_3.png)
-
-## 11 – Visa rymdskrotet igen
-
-![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
-
-Det är lite tråkigt att rymdskrotet försvinner helt när vi plockar upp det. Det finns ju trots allt mer rymdskrot i rymden. Vi kan använda blocket **för alltid** och lägga det *runt* våra andra block. Efter att vi har gömt vårt rymdskrot så vill vi hoppa upp till **gå till slumpmässig position**.
 
 
 ## 12 – Lägg till mer rymdskrot
 
-![Nu kan vi plocka upp rymdskrotet flera gånger](./12_1.png)
+![Nu räknar vi hur mycket rymdskrot vi plockar upp](./12_1.png)
 
 Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi fångar den. Och vi håller räkningen på hur många vi har plockat upp. 
 
 Rymdskrot kan ha olika former och olika storlekar.
 
-På samma sätt som vi ritade och programmerade vår kvadrat – skapa vi nu två nya figurer:
+På samma sätt som vi ritade och programmerade vår kvadrat – skapa nu tre nya figurer:
 
 - En rektangel
 - En cirkel
+- En triangel
 
-> Kan du komma på fler typer av figurer som skulle kunna passa som rymdskrot? Lägg till dem om du kommer på fler.
+> Tips! Det verkar inte finnas ingen färdig form för att rita en triangel. Vi måste nog rita den själva.
 
 Varje gång vi trycker på den gröna flaggan så dyker varje rymdskrot upp på en slumpmässig plats.
 
 ![](./9_2.gif)
 
+## 13 – Rymdskrotet väger olika mycket
+
+Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket ”vikt” vi lägger på vår variabel när vi nuddar de olika rymdskroten.
+
+- Kvadrat väger 5 ton
+- Cirkel väger 10 ton
+- Triangel väger 15 ton
+- Rektangel väger 20 ton
+
+Skriv in den nya vikten i blocket **ändra vikt med 5** för varje sprajt som är ett rymdskrot.
+
+## 14 – Nollställ variabel
+
+Nu väger de olika bitarna olika mycket.
+
+Men vår variabel bara fortsätter att räkna. Den börjar aldrig om.
+
+För att kunna hålla räkningen ordentligt så skulle vi vilja *nollställa* vår variabel. Det betyder att vi sätter den till 0. Vi vill nollställa den varje gång vi startar trycker på den gröna flaggan.
+
+Välj sprajten ”rymdfarkost”. Precis efter blocket ”När grön flagga klickas på” – lägg till ett block **sätt vikt till 0**. 
+
+Nu borde variabelns värde sättas till 0 varje gång vi trycker på den gröna flaggan. Testa genom att fånga lite rymdskrot och sedan trycka den gröna flaggan. Sätts variabeln till 0?
+
+## 15 – Avsluta när vi har städat färdigt
+
+Nu nollställs vår variabel varje gång vi startar om. 
+
+Som nästa steg så vill vi att vår rymdfarkost skall ropa ”Äntligen klart! när vi har plockat upp allt rymdskrot. Om vi har plockat upp all rymdskrot så betyder det att vi har plussat ihop allas vikter i vår variabel.
+
+I sprajten ”rymdfarkost” så skall vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill kolla om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Och om den är det – då säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
+
+> Vi kan räkna ut summan genom att plussa ihop alla vikterna från de olika rymdskroten. Använd papper och penna och skriv ned vikterna från sprajtarna och plussa sedan ihop dem.
+
+![](./15_2.png)
 
 ## TODO: Möjliga extrauppgifter
 
